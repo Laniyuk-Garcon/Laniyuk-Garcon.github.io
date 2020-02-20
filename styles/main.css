@@ -10,25 +10,42 @@
     text-align: center;
     color: black;  
   }
+
 .smaller-image {
   width: 200px;
   border-radius: 500px;
   position: absolute;
-  right: 100px
+  right: 80px;
 }
+
+
   .header{
-    width: 100%;
-    position: ;
-    padding: 30px 170px 30px 150px;
-    margin:-20px -150px -20px -100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1200px;
+    height: 80px;
+    overflow: hidden;
+    background-color: #852424;
+    padding: 10px 100px;
     text-align: center;
-    background: #1abc9c;
     color: white;
-    font-size: 30px;
+    font-size: 18px;
    
   }
   
   .question {
+    font-size: 16px;
+    font-family: 'Lobster', serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: maroon;
+    border-radius: 10px
+    
+  }
+
+  .question-culture {
     font-size: 16px;
     font-family: 'Lobster', serif;
     font-weight: bold;
@@ -50,10 +67,13 @@ ol li {
   .honeydew-background {
       background-color: honeydew;
       border-radius: 10px
-  
     
   }
 
+  .ochre-yellow {
+    background-color: rgb(250, 223, 106);
+    border-radius: 10px;
+  }
   .thin-maroon-border {
     border-color:maroon;
     border-width:1.5px;
@@ -65,22 +85,15 @@ ol li {
     background-color: honeydew;
     border-radius: 10px
   }
+
   body {
     background-color:whitesmoke;
     font-family: 'PT Serif', serif;
-    width: 600px;
-    height: 1400px;
-    margin: 0 auto;
-  }
-  h1 {
-    color:whitesmoke;
-    font-size: 30px;
-    font-family: 'PT Serif', serif;
-    padding;
-      top: 10px;
-      left: 10px;
-      text-align: left;
-    
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+    width: 800px;
+    padding: 100px 180px;  
+
   }
 
   h2 {
